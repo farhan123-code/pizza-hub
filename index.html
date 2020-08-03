@@ -1,11 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <!-- Links to CSS-->
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>Slice of Heaven</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <!--Headings and logo-->
+        <h1>PIZZA HUB &#1285226;</h1>
+        <p>In Pizza we Crust</p>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="collapse_target">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <div class="initially-hidden">
+                <a class="nav-link" href="#about"
+                  ><span class="clickable">About Us</span></a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="initially-hidden">
+                <a class="nav-link" href="#contact"
+                  ><span class="clickable">Contact Us</span></a
+                >
+              </div>
+            </li>
+            <li id="delivery-button">
+              <button
+                onclick="window.location.href = 'order.html';"
+                id="delivery"
+                class="btn delivery-btn"
+              >
+                DELIVERY
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <!-- Images container -->
+    <div class="images">
+      <div class="initially-showing" id="about">
+        <div class="container">
+          <div class="jumbotron">
+            <h3>ABOUT US.</h3>
+            <p>
+              We started Pizza HUB in a small town in Embu in 2015. Majority of the people never had before tasted pizza.
+              Lured by freshly made pies featuring tomatoes, peppers, onions, and basil from his
+              family's one-acre garden—as well as hand-crafted dough and meats of pastured cows from local butchers.
+            </p>
+            <p>
+              It’s not just a meal, it’s a destination.People come here to relax
+              and enjoy the setting, not to grab a meal and run.
+            </p>
+            <p>
+              majority of the people tend to move  from the busy life of the city,
+              to seek a cool and fresh-air environment. The weather in this area is quite favouroble too.
+              an added advantage is the beautiful scenaries and a vast number of wildlife.
+              despite Embu being quite far from Nairobi we hav had a large success as 
+              most of our customers frequent here.
+            </p>
+            <p>
+              The white-settler community and the tourists loved it, the locals
+              made it popular, fast-forward five years later and the
+              restaurant's five branches bake 300 pizzas in four hours.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="initially-showing" id="contact">
+        <div class="container">
+          <div class="jumbotron">
+            <h3>CONTACT US.</h3>
+            <p>
+              We value your feedback. For an
+              inquiries,complaints,comments,please feel free to reach out to us.
+            </p>
+            <br />
+            <p><strong>Telephone:</strong></p>
+            0700123456
+            <br />
+            <p><strong>Email:</strong></p>
+            pizzahub@gmail.com
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--details-->
+    <div class="card-footer details">
+      <div class="col-md-12">
+        <div class="row about-us">
+          <div class="col-md-4">
+            <div class="container timings-section">
+              <h4>OPENING HOURS</h4>
+              <h6>Sunday-Thursday</h6>
+              <p>11:00am-10:00pm</p>
+              <br />
+              <h6>Friday-Saturday</h6>
+              <p>11:00am-11:00pm</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container subscribe-section">
+              <h4>Email Address*</h4>
+              <label for="email"
+                >Subscribe to receive news and alerts from us.</label
+              >
+              <br />
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder=""
+                required
+              />
+              <br />
+              <input type="submit" value="Submit" onclick="output()" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container contact-section">
+              <h4>CONTACT</h4>
+              <h6>Telephone:</h6>
+              0700123456
+              <br />
+              <h6>P.O.Box 123456-0100</h6>
+              Embu,Kenya
+              <br />
+              <p>info@pizzahub.co.ke</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
