@@ -1,0 +1,86 @@
+/* HOME PAGE/*/
+body {
+  background-color: gray;
+  height: 1000px;
+}
+
+.jumbotron {
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+  color: black;
+  font-size: x-large;
+}
+
+.navbar {
+  background-color: black;
+  margin-top: 20%;
+  position: absolute;
+}
+
+.navbar .navbar-brand {
+  font-weight: bolder;
+  color: #cdcdcd;
+  font-size: 1.3em;
+  margin-left: 5%;
+}
+
+.navbar-text {
+  font-family: "Kaushan Script", cursive;
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.navbar-text:hover {
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.nav-link {
+  margin-left: 30px;
+  color: white;
+  font-size: large;
+}
+
+#delivery {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 700;
+  color: #cdcdcd;
+  border: solid orange;
+  border-radius: 50px;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+
+#delivery:hover {
+  color: #ffffff;
+  background: orangered;
+}
+
+.images {
+  background: url("../images/image1.jpg") no-repeat center center/cover;
+  background-color: grey;
+  height: 200vh;
+  margin-top: 0;
+  margin-bottom: -50%;
+}
+
+#initially-showing {
+  display: none;
+}
+
+#about {
+  color: white;
+  border: palevioletred;
+}
+.card-footer {
+  background-color: grey;
+  color: black;
+  margin-top: 50%;
+  margin-bottom: auto;
+}
