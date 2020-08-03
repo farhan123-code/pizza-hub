@@ -1,0 +1,31 @@
+body {
+  background: url("../images/h.jpeg") no-repeat center center/cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  background: white;
+  width: 50%;
+  padding: 40px;
+  margin: 100px auto;
+}
+
+h1 {
+  text-align: center;
+  color: aqua;
+}
+
+img {
+  width: 10vw;
+  height: 10vh;
+}
+
+#initially-showing {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
